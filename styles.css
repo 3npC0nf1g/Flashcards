@@ -1,85 +1,76 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
-body{
-    width: 100%;
-    height:100%;
+body {
+  width: 100%;
+  height: 100%;
 }
 
-body{
-    background-image: url("136-1364421_clip-art-file-svg-wikimedia-commons-map-of.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-   align-items: center;
-    background-color: deepskyblue;
+body {
+  background-image: url("161697.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
 }
 
-.quiz_area{
- width : 720px;
-    height: 810px;
+.quiz_area {
+  width:510px;
+  height: 810px;
+  transform: translate(150px);
 }
 
-.title{
- text-align: center;
-    font-family: 'KoHo', sans-serif;
-    font-size: 40px;
+.title {
+  text-align: center;
+  font-family: "KoHo", sans-serif;
+  font-size: 40px;
 }
 .question_table {
-    display: grid;
-    grid-template-columns:  auto auto auto;
-
+  display: grid;
+  grid-template-columns: 170px 170px 170px;
+  right: 200px;
 }
 
 .question,
 .answer {
-   background-color: seashell;
-    border: 1px solid black;
-    border-radius: 30px;
-    padding: 20px;
-   margin: 20px;
-    font-size: 30px;
-    text-align: center;
-    height: 200px;
-    width: 200px;
-    font-family: 'KoHo', sans-serif;
-    backface-visibility: hidden;
-    display: flex;
-    align-items: center;
-    justify-content:center ;
-    position : absolute;
+  background-color: #f4a259;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  margin:0px;
+  font-size: 30px;
+  text-align: center;
+  height: 160px;
+  width: 160px;
+  font-family: "KoHo", sans-serif;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  box-shadow: 2px 2px;
 }
 
-
-
-
-
-.card{
-    height: 220px;
-    width: 220px;
-    transition: all 2s ease;
-    transform-style: preserve-3d;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content:center ;
+.card {
+  height: 170px;
+  width: 170px;
+  transition: all 2s ease;
+  transform-style: preserve-3d;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.card:hover{
-    transform: rotateY(180deg);
+.card:hover {
+  transform: rotateY(180deg);
 }
-.answer{
-    transform: rotateY(180deg);
-    background:linear-gradient(#08aeea, #2af598);
+.answer {
+  transform: rotateY(180deg);
+  background: linear-gradient(#17bebb, #58a4b0);
 }
-/*<div>
-    <div>
-        <div class="front"><p>...</p></div>
-        <div class="back"><p>...</p></div>
-    </div>
-</div>
-*/
